@@ -74,6 +74,16 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  colorschemes = {
+    loaded = true,
+    path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorschemes",
+    url = "https://github.com/lunarvim/colorschemes"
+  },
+  ["onedarker.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedarker.nvim",
+    url = "https://github.com/lunarvim/onedarker.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -88,6 +98,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   }
 }
 
