@@ -47,10 +47,9 @@ return packer.startup(function(use)
 
   -- colorschemes
   use "lunarvim/colorschemes" -- a bunch of colorschems
-  use "folke/tokyonight.nvim" 
+  use "folke/tokyonight.nvim"
   use "lunarvim/onedarker.nvim"
 
-    
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
@@ -77,6 +76,10 @@ return packer.startup(function(use)
  require("flutter-tools").setup{}
  end,
   }
+
+  -- Telescope
+  use "nvim-telescope/telescope.nvim"
+  use "nvim-telescope/telescope-media-files.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
