@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-npm",
     url = "https://github.com/David-Kunz/cmp-npm"
   },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
   ["cmp-path"] = {
     loaded = true,
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
@@ -109,6 +114,12 @@ _G.packer_plugins = {
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorschemes",
     url = "https://github.com/lunarvim/colorschemes"
   },
+  ["flutter-tools.nvim"] = {
+    config = { "\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18flutter-tools\frequire\0" },
+    loaded = true,
+    path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\flutter-tools.nvim",
+    url = "https://github.com/akinsho/flutter-tools.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
@@ -118,6 +129,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer",
+    url = "https://github.com/williamboman/nvim-lsp-installer"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["onedarker.nvim"] = {
     loaded = true,
@@ -147,6 +168,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: flutter-tools.nvim
+time([[Config for flutter-tools.nvim]], true)
+try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18flutter-tools\frequire\0", "config", "flutter-tools.nvim")
+time([[Config for flutter-tools.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
