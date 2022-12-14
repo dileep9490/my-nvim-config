@@ -11,5 +11,6 @@ require("core.lsp")
 require("core.telescope")
 require("core.treesitter")
 require("core.autopairs")
+require("core.gitsigns")
 
 end
