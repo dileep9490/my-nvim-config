@@ -12,5 +12,8 @@ require("core.telescope")
 require("core.treesitter")
 require("core.autopairs")
 require("core.gitsigns")
+require("core.nvim-tree")
+require("core.bufferline")
+require("core.toggleterm")
 
 end
