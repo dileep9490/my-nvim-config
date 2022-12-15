@@ -18,4 +18,5 @@ else
   require("core.impatient")
   require("core.indentblankline")
   require("core.aplha")
+  require("core.whichkey")
 end
