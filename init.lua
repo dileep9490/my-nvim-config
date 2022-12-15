@@ -16,4 +16,5 @@ else
 	require("core.lualine")
 	require("core.project")
   require("core.impatient")
+  require("core.indentblankline")
 end

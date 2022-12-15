@@ -56,6 +56,7 @@ return packer.startup(function(use)
   use "moll/vim-bbye"
   use "ahmedkhalf/project.nvim"
   use "lewis6991/impatient.nvim"
+  use "lukas-reineke/indent-blankline.nvim"
 
   -- colorschemes
   use "lunarvim/colorschemes" -- a bunch of colorschems
