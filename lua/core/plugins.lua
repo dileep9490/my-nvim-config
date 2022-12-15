@@ -79,6 +79,7 @@ return packer.startup(function(use)
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   use "JoosepAlviste/nvim-ts-context-commentstring"
+  use "jose-elias-alvarez/null-ls.nvim"
 
   -- for Flutter 
   use {'akinsho/flutter-tools.nvim',

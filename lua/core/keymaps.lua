@@ -67,10 +67,18 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- to clear search highlightsvim.keymap.set('n','<leader>h',':nohlsearch<CR>')
 
- -- for Telescope
- -- keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
-keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown())<cr>", opts)
+-- for Telescope
+-- keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
+keymap(
+	"n",
+	"<leader>f",
+	"<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown())<cr>",
+	opts
+)
 keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
--- nvimTree 
-keymap("n","<leader>e",":NvimTreeToggle<cr>",opts)
+-- nvimTree
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
+
+-- Formatting
+      keymap("n", "<c-s>", ":w<cr> :lua vim.lsp.buf.format()<cr>", opts)
