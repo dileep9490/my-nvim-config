@@ -81,4 +81,5 @@ keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Formatting
-      keymap("n", "<c-s>", ":w<cr> :lua vim.lsp.buf.format()<cr>", opts)
+keymap("n", "<c-s>", ":w<cr> :lua vim.lsp.buf.format()<cr>", opts)
+
