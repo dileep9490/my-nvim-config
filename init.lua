@@ -17,4 +17,5 @@ else
 	require("core.project")
   require("core.impatient")
   require("core.indentblankline")
+  require("core.aplha")
 end

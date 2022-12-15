@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["alpha-nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\alpha-nvim",
+    url = "https://github.com/goolord/alpha-nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
