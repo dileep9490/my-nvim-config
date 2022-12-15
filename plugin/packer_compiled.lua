@@ -141,6 +141,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["impatient.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\impatient.nvim",
+    url = "https://github.com/lewis6991/impatient.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
@@ -215,6 +220,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  ["project.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\dilee\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\project.nvim",
+    url = "https://github.com/ahmedkhalf/project.nvim"
   },
   ["telescope-media-files.nvim"] = {
     loaded = true,

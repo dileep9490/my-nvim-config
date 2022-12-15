@@ -14,4 +14,6 @@ else
 	require("core.bufferline")
 	require("core.toggleterm")
 	require("core.lualine")
+	require("core.project")
+  require("core.impatient")
 end
