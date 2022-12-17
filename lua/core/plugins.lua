@@ -65,7 +65,7 @@ return packer.startup(function(use)
   use("lunarvim/colorschemes") -- a bunch of colorschems
   use("folke/tokyonight.nvim")
   use("lunarvim/onedarker.nvim")
-  use(    "norcalli/nvim-colorizer.lua")
+  use("norcalli/nvim-colorizer.lua")
 
   -- cmp plugins
   use("hrsh7th/nvim-cmp") -- The completion plugin
@@ -89,17 +89,14 @@ return packer.startup(function(use)
   use("jose-elias-alvarez/null-ls.nvim")
 
   -- for Flutter
-  use(    "akinsho/flutter-tools.nvim")
+  use("akinsho/flutter-tools.nvim")
 
   -- Telescope
   use("nvim-telescope/telescope.nvim")
   use("nvim-telescope/telescope-media-files.nvim")
 
   -- Treesitter
-  use({
-    "nvim-treesitter/nvim-treesitter",
-    run = ":TSUpdate",
-  })
+  use("nvim-treesitter/nvim-treesitter")
   use("p00f/nvim-ts-rainbow")
 
   -- Git
