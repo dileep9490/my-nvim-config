@@ -21,4 +21,5 @@ else
   require("core.whichkey")
   require("core.colorizer")
   require("core.flutter-tools")
+  require("core.hop")
 end
