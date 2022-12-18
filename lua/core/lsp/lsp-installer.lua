@@ -22,6 +22,19 @@ lsp_installer.on_server_ready(function(server)
 	 	local sumneko_opts = require("core.lsp.settings.sumneko_lua")
 	 	opts = vim.tbl_deep_extend("force", sumneko_opts, opts)
 	 end
+
+  --  if server.name == "dartls" then
+  --   local dart_opts = require("core.lsp.settings.dartls")
+  --   opts = vim.tbl_deep_extend("force",dart_opts,opts)
+  --  end
+  -- if server.name == "golangci_lint_ls " then
+  --   local dart_opts = require("core.lsp.settings.golangci_lint_ls ")
+  --   opts = vim.tbl_deep_extend("force",dart_opts,opts)
+  --  end
+  -- 
+  
+
+
   
 
 	-- This setup() function is exactly the same as lspconfig's setup function.
