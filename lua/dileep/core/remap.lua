@@ -23,9 +23,6 @@ keymap("n", "<s-Right>", ":vertical resize +2<CR>", opts)
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
--- file explorere / netrw
-vim.keymap.set("n", "<leader>pv", vim.cmd.ex)
-
 -- moving block (selected code)
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
