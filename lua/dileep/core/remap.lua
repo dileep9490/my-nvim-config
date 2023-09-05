@@ -7,11 +7,16 @@ local keymap = vim.api.nvim_set_keymap
 keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 
--- Better window navigation
-keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-j>", "<C-w>j", opts)
-keymap("n", "<C-k>", "<C-w>k", opts)
-keymap("n", "<C-l>", "<C-w>l", opts)
+-- -- Better window navigation
+-- keymap("n", "<C-h>", "<C-w>h", opts)
+-- keymap("n", "<C-j>", "<C-w>j", opts)
+-- keymap("n", "<C-k>", "<C-w>k", opts)
+-- keymap("n", "<C-l>", "<C-w>l", opts)
+--
+keymap("n", "<C-h>", "<cmd>TmuxNavigateLeft<cr>", opts)
+keymap("n", "<C-j>", "<cmd>TmuxNavigateDown<cr>", opts)
+keymap("n", "<C-k>", "<cmd>TmuxNavigateUp<cr>", opts)
+keymap("n", "<C-l>", "<cmd>TmuxNavigateRight<cr>", opts)
 
 -- Resize with arrows
 keymap("n", "<s-Up>", ":resize +2<CR>", opts)
