@@ -2,8 +2,7 @@ local lsp = require("lsp-zero")
 local lsp_config = require("lspconfig")
 
 lsp.preset("recommended")
-
--- Fix Undefined global 'vim'
+-- -- Fix Undefined global 'vim'
 lsp.nvim_workspace()
 
 local on_attach = lsp.on_attach(function(client, bufnr)
@@ -40,4 +39,4 @@ vim.diagnostic.config({
 	virtual_text = true,
 })
 
-lsp.setup()
+lsp.setup({})
