@@ -20,6 +20,9 @@ require("nvim-treesitter.configs").setup({
 		"rust",
 	},
 
+    context_commentstring = {
+        enable=true
+    },
 	-- Install parsers synchronously (only applied to `ensure_installed`)
 	sync_install = false,
 

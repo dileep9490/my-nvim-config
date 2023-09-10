@@ -1,8 +1,15 @@
 return {
-    'numToStr/Comment.nvim',
-    opts = {
-        -- add any options here
+    {
+        'numToStr/Comment.nvim',
+        opts = {
+            -- add any options here
+        },
+        lazy = false,
     },
-    lazy = false,
+    {
+        "JoosepAlviste/nvim-ts-context-commentstring"
+    }, {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
 }
-
+}
